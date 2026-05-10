@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>QueueMaster — Page Not Found</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root[data-theme="dark"]{
+  --bg-primary:#0d0f1a;--bg-card:#1a1d2e;--border:rgba(99,179,237,0.15);
+  --text-primary:#e8eaf6;--text-muted:#4a5568;
+  --accent-cyan:#00d4ff;--accent-teal:#00b4b4;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Sora',sans-serif;background:var(--bg-primary);color:var(--text-primary);
+  min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;}
+.wrap{max-width:400px;}
+.icon{font-size:64px;margin-bottom:24px;opacity:.3;}
+h1{font-family:'Orbitron',sans-serif;font-size:24px;font-weight:900;
+  background:linear-gradient(135deg,var(--accent-cyan),var(--accent-teal));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:12px;}
+p{font-size:14px;color:var(--text-muted);margin-bottom:32px;line-height:1.6;}
+.links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+a{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:10px;
+  font-size:13px;font-weight:700;text-decoration:none;transition:opacity .2s;}
+.btn-home{background:linear-gradient(135deg,var(--accent-cyan),var(--accent-teal));color:#fff;}
+.btn-admin{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;}
+a:hover{opacity:.85;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="icon">⚡</div>
+  <h1>404 — Not Found</h1>
+  <p>The page you're looking for doesn't exist or has moved. Head back to the portal or admin panel.</p>
+  <div class="links">
+    <a href="index.html" class="btn-home">← User Portal</a>
+    <a href="admin.html" class="btn-admin">⚙ Admin Panel</a>
+  </div>
+</div>
+</body>
+</html>
